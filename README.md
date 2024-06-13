@@ -3,6 +3,7 @@
 GameZone, RAWG API kullanarak oyun bilgilerini listeleyen ve oyun detaylarını görüntüleyen bir ASP.NET Core MVC web uygulamasıdır.
 
 ![image](https://github.com/karabasnejat/GameZone/assets/62561906/63790290-f7b7-4cfc-82ef-bbdae5170d4d)
+![image](https://github.com/karabasnejat/GameZone/assets/62561906/ad747b0f-4f41-4bb5-84a3-51e4959befd9)
 ![image](https://github.com/karabasnejat/GameZone/assets/62561906/502ffd1e-95d9-468d-b319-6ce03b36d707)
 
 
