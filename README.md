@@ -58,11 +58,6 @@ To run this project locally, follow these steps.
     dotnet run
     ```
 
-5. Open the following URL in your browser:
-
-    ```
-    https://localhost:5001
-    ```
 
 ## Usage
 
