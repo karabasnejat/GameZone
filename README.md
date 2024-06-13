@@ -1,21 +1,19 @@
 # GameZone - ASP.NET Core using RAWG API
 
-GameZone, RAWG API kullanarak oyun bilgilerini listeleyen ve oyun detaylarını görüntüleyen bir ASP.NET Core MVC web uygulamasıdır.
+GameZone is an ASP.NET Core MVC web application that lists game information and displays game details using the RAWG API.
 
 ![image](https://github.com/karabasnejat/GameZone/assets/62561906/63790290-f7b7-4cfc-82ef-bbdae5170d4d)
 ![image](https://github.com/karabasnejat/GameZone/assets/62561906/ad747b0f-4f41-4bb5-84a3-51e4959befd9)
 ![image](https://github.com/karabasnejat/GameZone/assets/62561906/502ffd1e-95d9-468d-b319-6ce03b36d707)
 
+## Features
 
+- Listing trending games on the homepage
+- Displaying game details including description, images, rating, platforms, and stores on the game detail page
+- Clickable game images with Lightbox integration
+- Responsive sidebar menu
 
-## Özellikler
-
-- Anasayfada trend oyunların listelenmesi
-- Oyunun detay sayfasında oyunun açıklaması, görselleri, rating, platformlar ve mağazalar hakkında bilgi
-- Lightbox entegrasyonu ile tıklanabilir oyun görselleri
-- Responsive sidebar menüsü
-
-## Teknolojiler
+## Technologies
 
 - **ASP.NET Core 7.0**: Backend services and API development.
 - **Entity Framework Core**: Efficient data management and ORM.
@@ -24,68 +22,58 @@ GameZone, RAWG API kullanarak oyun bilgilerini listeleyen ve oyun detaylarını 
 - **Node.js**: Additional backend services and utilities.
 - **N-Tier Architecture**: Separates concerns across different layers, improving maintainability.
 
-## Kurulum
+## Installation
 
-Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
+To run this project locally, follow these steps.
 
-### Gereksinimler
+### Requirements
 
 - .NET 7.0 SDK
-- Visual Studio veya Visual Studio Code
+- Visual Studio or Visual Studio Code
 - Git
 
-### Adımlar
+### Steps
 
-1. Depoyu klonlayın:
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/username/GameZone.git
     cd GameZone
     ```
 
-2. Gerekli bağımlılıkları yükleyin:
+2. Install the necessary dependencies:
 
     ```bash
     dotnet restore
     ```
 
-3. Veritabanını ve gerekli konfigürasyonları güncelleyin:
+3. Update the database and necessary configurations:
 
-    - `appsettings.json` dosyasını yapılandırın.
-    - RAWG API anahtarını ayarlayın (`GameService.cs` dosyasında anahtarınızı kontrol edin).
+    - Configure the `appsettings.json` file.
+    - Set your RAWG API key (check your key in the `GameService.cs` file).
 
-4. Uygulamayı çalıştırın:
+4. Run the application:
 
     ```bash
     dotnet run
     ```
 
-5. Tarayıcınızda aşağıdaki URL'yi açın:
+5. Open the following URL in your browser:
 
     ```
     https://localhost:5001
     ```
 
-## Kullanım
+## Usage
 
-- Anasayfada trend oyunları görebilirsiniz.
-- Oyun başlıklarına tıklayarak oyunların detay sayfasına ulaşabilirsiniz.
-- Detay sayfasında oyun görsellerine tıklayarak büyük boyutta görebilirsiniz.
+- You can see trending games on the homepage.
+- Click on game titles to access their detail pages.
+- On the detail page, click on game images to view them in full size.
 
-## Katkıda Bulunma
+## Contributing
 
-Katkıda bulunmak isterseniz lütfen bir pull request gönderin. Herhangi bir hata veya öneri için issue açabilirsiniz.
+If you would like to contribute, please send a pull request. You can also open an issue for any bugs or suggestions.
 
-## Lisans
+## License
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
-
-## Ekran Görüntüleri
-
-### Ana Sayfa
-
-![Ana Sayfa](./screenshots/home.png)
-
-### Oyun Detay Sayfası
-
-![Oyun Detay Sayfası](./screenshots/details.png)
+This project is licensed under the MIT License. For more information, see the `LICENSE` file.
