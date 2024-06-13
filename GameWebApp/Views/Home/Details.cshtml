@@ -1,0 +1,24 @@
+﻿@model GameWebApp.Models.Game
+
+<div class="container mt-4">
+    <h2>@Model.Name</h2>
+    <img src="@Model.ImageUrl" alt="@Model.Name" class="img-fluid mb-3" />
+    <p>@Model.Description</p>
+    <p><strong>Rating:</strong> @Model.Rating</p>
+    <p><strong>Platforms:</strong> @Model.Platforms</p>
+    <p><strong>Stores:</strong> @Model.Stores</p>
+
+    @if (Model.Screenshots != null && Model.Screenshots.Any())
+    {
+        <div class="row mt-4">
+            @foreach (var screenshot in Model.Screenshots)
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="@screenshot" class="card-img-top" alt="Game Screenshot" />
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
