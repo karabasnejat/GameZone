@@ -17,9 +17,7 @@ GameZone is an ASP.NET Core MVC web application that lists game information and 
 
 - **ASP.NET Core 7.0**: Backend services and API development.
 - **Entity Framework Core**: Efficient data management and ORM.
-- **Ocelot API Gateway**: Secure routing between microservices.
-- **Tailwind CSS**: Modern, responsive design framework.
-- **Node.js**: Additional backend services and utilities.
+- **Bootstrap*: Modern, responsive design framework.
 - **N-Tier Architecture**: Separates concerns across different layers, improving maintainability.
 
 ## Installation
