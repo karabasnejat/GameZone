@@ -4,7 +4,7 @@ GameZone is an ASP.NET Core MVC web application that lists game information and 
 
 ![image](https://github.com/karabasnejat/GameZone/assets/62561906/70de9fdc-568a-494d-a034-ae58f064c958)
 ![image](https://github.com/karabasnejat/GameZone/assets/62561906/62197611-bb67-4254-b4ba-75018f55bcdd)
-![image](https://github.com/karabasnejat/GameZone/assets/62561906/39215680-d2b9-4e4d-9e62-24cb80b29254)
+![image](https://github.com/karabasnejat/GameZone/assets/62561906/cdfc3f68-1779-4f22-9dac-6f0ec1457949)
 
 ## Features
 
